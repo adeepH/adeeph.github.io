@@ -1,0 +1,73 @@
+SUBMISSION: 5
+TITLE: Domain Identification of Scientific Articles using Transfer Learning and Ensembles
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 5
+TITLE: Domain Identification of Scientific Articles using Transfer Learning and Ensembles
+AUTHORS: Adeep Hande, Karthik Puranik, Ruba Priyadharshini and Bharathi Raja Chakravarthi
+
+----------- Overall evaluation -----------
+SCORE: 2 (accept)
+----- TEXT:
+The paper describes authors’ approaches for the shared task. Overall, the paper clearly presents the shared task, approaches, and results. Before publication, I ask the authors to correct/clarify the following points.
+
+- It is not usual to use a footnote in abstracts. In addition, the numbering of the footnote should start at 1 instead of 4.
+
+- Section 1, line 2: “A study by a bibliometric analyst demonstrates” -> As the reference [2] has more than one author, it should be “A study by bibliometric analysts demonstrates”
+
+- Table 1: Do the authors use 11,200 items for test and 7,000 items for validation? According to the website (https://sdpra-2021.github.io/website/), the task sets 11,200 items for validation and 7,000 items for test. The authors need to carefully check which items they used for validation and test.
+
+- Section 4.1, line 1: “to the classify” -> “to classify”
+
+- Section 4.1, line 2: “System Architecture” -> “system architecture”
+
+- p.6, Pearson Correlation: It is not clear “the covariance”. The authors should clearly describe e.g., how the covariance is computed. If the Pearson correlation is used for ensembling in a previous work, adding a reference is helpful.
+
+- p.6, Pearson Correlation: “The relationship between the correlation coefficient matrix, R, and the co-variance matrix, C” -> I take the phrase as the relationship between the correlation coefficient matrix and co-variance matrix. However, the equation is not about the relationship between correlation coefficient matrix and co-variance matrix, rather about how to compute correlation coefficient matrix.
+
+- Section 5: “As BERT, RoBERTa, and SciBERT ,” -> “As BERT, RoBERTa, and SciBERT,” (The authors need to delete unnecessary space before comma at the last.)
+
+- Section 6, line 2: “which We achieved“ ->  “which we achieved“
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 5
+TITLE: Domain Identification of Scientific Articles using Transfer Learning and Ensembles
+AUTHORS: Adeep Hande, Karthik Puranik, Ruba Priyadharshini and Bharathi Raja Chakravarthi
+
+----------- Overall evaluation -----------
+SCORE: 1 (weak accept)
+----- TEXT:
+In this research article, the authors have conducted experiments with transfer learning by applying pre-trained language models. The concept of the paper proposed in this research article is not completely novel. Overall the paper is not well written not well organized. The authors of the paper need to address the following points:
+
+1) In Introduction: It lacks the main objective of the research article.
+(a) “A study by a bibliometric analyst demonstrates that the number of articles being published is said to be doubled in the next nine years [2].” Please add the year at which it will be doubled to have a clear picture.
+(b) “Text classification is a common downstream task of NLP to classify text and documents into predefined categories.” Please rewrite the sentence.
+
+2) Related work is not very well written at various places references are missing and paragraph and text is not well connected. I would suggest please rewrite it in well manner, so readers have a clear understanding. Please also write how your work is different from existing works.
+a) Description of reference [3] and [4] is not well connected. “There have been works for subject text classification using deep neural networks with LSTM units on Wikipedia articles belonging to 7 subject categories [3]. It was also approached by categorising them based on keywords. Unigram and bigram are generated for these keywords on which Query enrichment is used [4].”
+b) “Subject classification was also tried using supervised learning” Please add a reference.
+c) Reference [5] is not well explained.
+d) “There are studies on Bagging and Boosting,…” please add the references of studies.
+
+3) System Description: It is very poorly written with some grammatical errors in sentences (for example see fragments of few sentences: (i) primarily consists of abstracts of scientific articles, (ii) Where ti and si are the ground truths for each class i in C.)
+a)  In Section 4.1, the authors have written “The processed text is passed through all the models described in Sections 4.3 to 4.5. Finally, the system returns the average of the predicted
+probabilities from all models as the output.” How are ensembling approaches applied? Please add one to two sentences about this in section 4.1.
+(b)Figure 1 and 2 are blurred. Please correct it.
+
+4) Results and analysis: Please add training, validation, and testing accuracies. Please vary the numbers of epoch and if possible insert curves to present the effect of epochs.
+
+
+
+----------------------- REVIEW 3 ---------------------
+SUBMISSION: 5
+TITLE: Domain Identification of Scientific Articles using Transfer Learning and Ensembles
+AUTHORS: Adeep Hande, Karthik Puranik, Ruba Priyadharshini and Bharathi Raja Chakravarthi
+
+----------- Overall evaluation -----------
+SCORE: 1 (weak accept)
+----- TEXT:
+This paper describes a system for SDPRA 2021 shared task. The system consists of an ensemble of 3 pre-trained transformer models and makes predictions by aggregating the outputs of all models.
+The best results were obtained using Pearson Correlation. Unfortunately, I could not really understand how PC was used to combine the outputs (nor why this was used). Overall, the paper is poorly written and structured. The introduction mixes the overall problem being addressed, and the shared task definition. The related work is vague and unfocused. The data section could also be reorganized into a single table. Some more analysis on the results would also be welcome.

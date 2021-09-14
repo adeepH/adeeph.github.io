@@ -1,0 +1,18 @@
+@article{DBLP:journals/corr/abs-2108-04616,
+  author    = {Adeep Hande and
+               Ruba Priyadharshini and
+               Anbukkarasi Sampath and
+               Kingston Pal Thamburaj and
+               Prabakaran Chandran and
+               Bharathi Raja Chakravarthi},
+  title     = {Hope Speech detection in under-resourced Kannada language},
+  journal   = {CoRR},
+  volume    = {abs/2108.04616},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2108.04616},
+  eprinttype = {arXiv},
+  eprint    = {2108.04616},
+  timestamp = {Wed, 11 Aug 2021 15:24:08 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2108-04616.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}

@@ -1,0 +1,105 @@
+============================================================================
+PEOPLES 2020 Reviews for Submission #6
+============================================================================
+
+Title: KanCMD: Kannada CodeMixed Dataset for Sentiment Analysis and Offensive Language Detection
+Authors: Adeep Hande, Ruba Priyadharshini and Bharathi Raja Chakravarthi
+
+
+============================================================================
+                            REVIEWER #1
+============================================================================
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                   Appropriateness (1-5): 5
+                           Clarity (1-5): 4
+      Originality / Innovativeness (1-5): 3
+           Soundness / Correctness (1-5): 3
+             Meaningful Comparison (1-5): 2
+                      Thoroughness (1-5): 3
+        Impact of Ideas or Results (1-5): 3
+                    Recommendation (1-5): 3
+               Reviewer Confidence (1-5): 4
+
+Detailed Comments
+---------------------------------------------------------------------------
+The manuscript describes a dataset of 7,671 Kannada-English code-mixed comments on YouTube. These comments are annotated both for sentiment (positive, negative, neutral, mixed, other language) as well as offensive language (offensive or not, targeting nobody/individual/group/other, other language). Such a dataset could be useful for multi-task learning. They also provide experimental results for the non-shared setting for several tokens-as-features based classification methods.
+
+Collecting, annotating, and releasing a dataset has value and helps others improve their systems. As such, this manuscript deserves consideration.
+
+As the main contribution is the dataset, more details would need to be provided. Including:
+- How were the comments discovered? Are they, say, all posted on the same video? When were they collected (as there are temporal dependencies, e.g. around elections)?
+- How were the annotators recruited? Where they reimbursed? How many annotators were there?
+- What exactly was the tokenization/featurization pipeline? Were stop words removed? Where all sequences of non-whitespaces used as characters?
+- Are there additional unlabeled comments that could be shared? This would be helpful for things such as training or refining embeddings
+
+Concerning the presented classification results, it is not clear that these add value. No embeddings are used and no method are explored to address the class imbalance (such as SMOTE or similar). Also no multi-task baseline is presented. As such it might be better to remove the current experiments and, instead, focus on a detailed explanation of the dataset and the annotation process.
+
+Minor: At least this reviewer was previously not aware of where Kannada is spoken. As such, 1-2 sentences in the introduction on the geographic and ethnic distribution of Kannada might be helpful.
+---------------------------------------------------------------------------
+
+
+
+============================================================================
+                            REVIEWER #2
+============================================================================
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                   Appropriateness (1-5): 5
+                           Clarity (1-5): 4
+      Originality / Innovativeness (1-5): 4
+           Soundness / Correctness (1-5): 3
+             Meaningful Comparison (1-5): 4
+                      Thoroughness (1-5): 4
+        Impact of Ideas or Results (1-5): 3
+                    Recommendation (1-5): 4
+               Reviewer Confidence (1-5): 5
+
+Detailed Comments
+---------------------------------------------------------------------------
+This paper presents an annotated corpus of sentiment analysis and offensive language on code-mixed Kannada. THe resoruce is manually annotated, and represents the bulk of the contribution, especially considered that no comparable resource exists for this language.
+
+Considering that Kannada is a relatively low-resourced language, it could be useful to the reader to know a little more about the language itself, how many people speaks it, its family, maybe its tiypology, and so on.
+
+The annotation is a critical step in this work, especially since the investigated phenomena are highly subjective in nature. While the guidelines used by the annotators are summarized in the paper, some more information and examples of messages pertaining to the different labels would improve the readability.
+
+The experiments performed to validate the resource are a bit basic, employing ngram-based features, while more refined representations are available, i.e. word embeddings, and more sophisticated network architectures have shown to perform well on less-resources languages. Experimental details are also missing, e.g. is this a cross-0validation experiment? How many folds?
+
+Considering that the dataset is built to contain code-mixed messages, it would be interesting to see the performance of the models on subsets containing only one alphabet, and compare the results.
+
+I suggest to avoid the term "multi-task" as it points at multi-task learning, while only single-task experiments were performed. On the same line, actual multi-task learning experiment could be done on this dataset, given its annotation, and presented in a revised version of this paper or in future work.
+---------------------------------------------------------------------------
+
+
+
+============================================================================
+                            REVIEWER #3
+============================================================================
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                   Appropriateness (1-5): 5
+                           Clarity (1-5): 4
+      Originality / Innovativeness (1-5): 3
+           Soundness / Correctness (1-5): 2
+             Meaningful Comparison (1-5): 4
+                      Thoroughness (1-5): 3
+        Impact of Ideas or Results (1-5): 3
+                    Recommendation (1-5): 4
+               Reviewer Confidence (1-5): 4
+
+Detailed Comments
+---------------------------------------------------------------------------
+The authors present a Kannada code-mixed dataset of Youtube comments annotated both for sentiment as well as offensive language. They use well-thought-through annotation schemata and achieve a very good Krippendorff alpha of 0.7+. They run some basic benchmarking experiments with results of limited informativeness.
+
+The strong points of the paper are: (1) a dataset in a underresourced language is produced, (2) the annotation schemas and the annotation quality seem of high quality.
+
+The weak points of the paper are (1) lack of information on how the multiple annotations were combined, (2) the authors miss an obvious opportunity to present an analysis of the sentiment-offensiveness interplay, as simply as presenting a confusion matrix between the two annotation layers, (3) the machine learning results seem to be of low quality with SVMs learning to pick the most frequent class only, I wonder whether the issue with these experiments is primarily in the realm of feature engineering as 1-3 word n-grams were used and the dataset is rather small (I suggest the authors to aim in the direction of character-ngrams, 3-6).
+
+Overall the dataset creation part of the paper is strong. I would add some annotation analyses, and possibly explain the large difference in the "other language" category in the two annotation layers (Tables 3 and 4). For the machine learning experiments I would rather stick with a smaller number of algorithms, but that are applied properly / with some experience.
+---------------------------------------------------------------------------

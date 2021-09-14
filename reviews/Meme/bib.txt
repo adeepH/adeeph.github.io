@@ -1,0 +1,21 @@
+@article{DBLP:journals/corr/abs-2108-03886,
+  author    = {Siddhanth U. Hegde and
+               Adeep Hande and
+               Ruba Priyadharshini and
+               Sajeetha Thavareesan and
+               Ratnasingam Sakuntharaj and
+               Sathiyaraj Thangasamy and
+               B. Bharathi and
+               Bharathi Raja Chakravarthi},
+  title     = {Do Images really do the Talking? Analysing the significance of Images
+               in Tamil Troll meme classification},
+  journal   = {CoRR},
+  volume    = {abs/2108.03886},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2108.03886},
+  eprinttype = {arXiv},
+  eprint    = {2108.03886},
+  timestamp = {Wed, 11 Aug 2021 15:24:08 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2108-03886.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}

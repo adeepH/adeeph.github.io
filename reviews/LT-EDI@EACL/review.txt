@@ -1,0 +1,74 @@
+============================================================================
+EACL 2021 Reviews for Submission #17
+============================================================================
+
+Title: IIITT@LT-EDI-EACL2021-Hope Speech Detection: There is always hope in Transformers
+Authors: Karthik Puranik, Adeep Hande, Ruba Priyadharshini, Sajeetha Thavareesan and Bharathi Raja Chakravarthi
+
+
+============================================================================
+                            REVIEWER #1
+============================================================================
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                   Appropriateness (1-5): 5
+                           Clarity (1-5): 5
+      Originality / Innovativeness (1-5): 4
+           Soundness / Correctness (1-5): 4
+             Meaningful Comparison (1-5): 4
+                      Thoroughness (1-5): 5
+        Impact of Ideas or Results (1-5): 4
+                    Recommendation (1-5): 4
+               Reviewer Confidence (1-5): 4
+
+Detailed Comments
+---------------------------------------------------------------------------
+The submission reports on experiments with a data collection which includes a large portion of Hope Speech. The work exhibits a great deal of expertise and very extensive experiments with recent models. These experiments are also set up in very interesting variations. BERT is combined with a LSTM and common BERT modeling is compared to character models.
+As such, the paper is also relevant beyond the focus of Hate speech.
+
+The dataset and the notion of Hope speech should be elaborated more. It is not fully clear whether this are positive postings or postings against hate speech.
+
+The drop of performance for Tmil should be discussed in a bit more depth.
+
+“was discovered (Rizwan 2020)” Such a recent citation might not be the best to mention that Hate is a topic for some time already. Consider even citing a recent bibliometric overview paper (https://doi.org/10.1007/s11192-020-03737-6).
+
+
+
+Details:
+Charecter
+klaus -> Klaus
+krippendorf -> Krippendorf
+---------------------------------------------------------------------------
+
+
+
+============================================================================
+                            REVIEWER #2
+============================================================================
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                   Appropriateness (1-5): 5
+                           Clarity (1-5): 4
+      Originality / Innovativeness (1-5): 3
+           Soundness / Correctness (1-5): 4
+             Meaningful Comparison (1-5): 4
+                      Thoroughness (1-5): 3
+        Impact of Ideas or Results (1-5): 3
+                    Recommendation (1-5): 4
+               Reviewer Confidence (1-5): 5
+
+Detailed Comments
+---------------------------------------------------------------------------
+Summary: Overall an interesting take on the task. Initial part of abstract literally killed it (dystopian movie trailer). The authors are extremely clear on the task, approach, the reason for selection of the approach with solid grounding of results. It good to see that the code was released publicly, thus ensuring replication. Its also good to see that dataset and approaches are well introduced. The results and analysis are fairly sufficient considering the page limitation and scope of the system.
+
+Following are some of the points which authors could improve to garner better visibility and ease of read.
+- Since this is a system description, it makes sense that readers should be able to discern the system easily. Even though authors mentioned on BERT, BiLSTM etc. Reading paper along doesn't answer tons of questions related to hyperparameters used training process etc. In that regard, its useful to add a table of parameters and values thus helping readers grasp the approach.
+- For hugging face please use their paper https://arxiv.org/abs/1910.03771 in citation
+- For Accuracy, it is beneficial to include precision and recall, as this may show potential weakness of models. Especially for Malayalam dataset much of the results are in 70-85 this is a valuable addition and will ground results more fairly.
+- The sentence "The BiLSTM layers take the embeddings from the transformer encoder as the input which increases the information being fed which in turn betters the context and accuracy" requires citation. Else its value laden
+-  Usually if data is imbalanced weighed metrics are overkill especially if the thought process is that every prediction matters because it can be argued that if data is more on one class, the models will frequently predict those classes correctly. If so macro metric is ideal candidate. May be the authors could justify the reason for weighed metric. In addition class level results could be added.
+---------------------------------------------------------------------------

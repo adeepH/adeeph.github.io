@@ -1,0 +1,18 @@
+@inproceedings{kalyan-etal-2021-iiitt,
+    title = "{IIITT} at {CASE} 2021 Task 1: Leveraging Pretrained Language Models for Multilingual Protest Detection",
+    author = "Kalyan, Pawan  and
+      Reddy, Duddukunta  and
+      Hande, Adeep  and
+      Priyadharshini, Ruba  and
+      Sakuntharaj, Ratnasingam  and
+      Chakravarthi, Bharathi Raja",
+    booktitle = "Proceedings of the 4th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE 2021)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.case-1.13",
+    doi = "10.18653/v1/2021.case-1.13",
+    pages = "98--104",
+    abstract = "In a world abounding in constant protests resulting from events like a global pandemic, climate change, religious or political conflicts, there has always been a need to detect events/protests before getting amplified by news media or social media. This paper demonstrates our work on the sentence classification subtask of multilingual protest detection in CASE@ACL-IJCNLP 2021. We approached this task by employing various multilingual pre-trained transformer models to classify if any sentence contains information about an event that has transpired or not. We performed soft voting over the models, achieving the best results among the models, accomplishing a macro F1-Score of 0.8291, 0.7578, and 0.7951 in English, Spanish, and Portuguese, respectively.",
+}

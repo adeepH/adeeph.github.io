@@ -1,0 +1,8 @@
+@misc{hande2021offensive,
+      title={Offensive Language Identification in Low-resourced Code-mixed Dravidian languages using Pseudo-labeling},
+      author={Adeep Hande and Karthik Puranik and Konthala Yasaswini and Ruba Priyadharshini and Sajeetha Thavareesan and Anbukkarasi Sampath and Kogilavani Shanmugavadivel and Durairaj Thenmozhi and Bharathi Raja Chakravarthi},
+      year={2021},
+      eprint={2108.12177},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}

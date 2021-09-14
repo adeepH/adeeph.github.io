@@ -1,0 +1,16 @@
+@InProceedings{10.1007/978-3-030-75015-2_9,
+author="Hande, Adeep
+and Puranik, Karthik
+and Priyadharshini, Ruba
+and Chakravarthi, Bharathi Raja",
+editor="Gupta, Manish
+and Ramakrishnan, Ganesh",
+title="Domain Identification of Scientific Articles Using Transfer Learning and Ensembles",
+booktitle="Trends and Applications in Knowledge Discovery and Data Mining",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="88--97",
+abstract="This paper describes our transfer learning-based approach for domain identification of scientific articles as a part of the SDPRA-2021 Shared Task. We experiment with transfer learning using pre-trained language models (BERT, RoBERTa, SciBERT), and these are then fine-tuned for this task. The result shows that the ensemble approach performs best as the weights are being taken into consideration. We propose improvements for future work. The codes for the best system are published here: https://github.com/SDPRA-2021/shared-task/tree/main/IIITT.",
+isbn="978-3-030-75015-2"
+}

@@ -1,0 +1,106 @@
+============================================================================
+CASE 2021 Reviews for Submission #22
+============================================================================
+
+Title: IIITT at CASE 2021 Task 1: Leveraging Pretrained Language Models for Multilingual Protest Detection
+Authors: Pawan Kalyan, Duddukunta Reddy, Adeep Hande, Ruba Priyadharshini, Ratnasingam Sakuntharaj and Bharathi Raja Chakravarthi
+
+
+============================================================================
+                            REVIEWER #1
+============================================================================
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                   Appropriateness (1-5): 5
+                           Clarity (1-5): 5
+      Originality / Innovativeness (1-5): 1
+           Soundness / Correctness (1-5): 5
+             Meaningful Comparison (1-5): 5
+                      Thoroughness (1-5): 1
+        Impact of Ideas or Results (1-5): 1
+                    Recommendation (1-5): 2
+               Reviewer Confidence (1-5): 5
+
+Detailed Comments
+---------------------------------------------------------------------------
+The paper accompanies the sentence classification subtask of the CASE shared task. The authors approach this task by employing various multilingual pretrained transformer models to classify whether a document or sentence pertains a protest event or not. The code was published, but only consists of Jupiter notebooks.
+
+The authors motivate their approach with social media in the introduction. I found this confusing since all data used in this subtask is extracted from news papers. While I understand the motivation, I would frame it more towards newspaper analysis.
+
+The paper makes an attempt to establishes a focus on multilinguality, which I would probably emphasise even more to tell a coherent story. Table 1 is helpful and helps the understanding! The data section is helpful as well. I would change the format of figure 1 to not have it stretched.
+
+Since the paper is framed around "multilinguality", I was expecting another section on this matter. For instance, you could consider a Discussion section I which you ablate the performance on different languages. Some linguistics- or political science-inspired insights would be interesting to tell a more coherent story. The approach overall is little novel – it is a straight-forward application of Transformer models without further qualitative and quantitative insights of academic value.
+
+In my opinion, the paper would benefit from more sensitive wording. For instance, the first sentence of the abstract does not appear very intuitive to me: "In a rapidly advancing world abounding in constant protests resulting from events like a global pandemic, climate change, religious or political conflicts, there has always been a need to detect events/protests ahead of time before it gets amplified by social media." I am not sure, whether newspapers distribute information more quickly than social media. Also I am not seeing the logical connection between "an advancing world" and protests.
+---------------------------------------------------------------------------
+
+
+Questions for Authors
+---------------------------------------------------------------------------
+I have no specific questions to the authors.
+---------------------------------------------------------------------------
+
+
+
+============================================================================
+                            REVIEWER #2
+============================================================================
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                   Appropriateness (1-5): 4
+                           Clarity (1-5): 3
+      Originality / Innovativeness (1-5): 4
+           Soundness / Correctness (1-5): 5
+             Meaningful Comparison (1-5): 3
+                      Thoroughness (1-5): 4
+        Impact of Ideas or Results (1-5): 4
+                    Recommendation (1-5): 4
+               Reviewer Confidence (1-5): 4
+
+Detailed Comments
+---------------------------------------------------------------------------
+This paper describes the approach of team IIITT on CASE-2021 Task 1 (subtask 2). They treated the sentence classification task as a sequence classification problem and mainly used multilingual pretrained transformer models and soft voting to make the predictions.
+
+Overall, the paper is well-written, but there is major confusion between social media and news media. In the introduction, more focus is given to social media (e.g. Facebook, Twitter, etc.), but as I aware of the targeted shared task is designed for news media /articles. This content could lead the reader into confusion as a proper link between social media and news media is not mentioned. So, I suggest going through the task description again and update the introduction accordingly.
+
+Also, the event and non-event instance counts are incorrectly reported. The given dataset has a high number of non-event sentences. Please recheck and correct it.
+
+Further, I have the following suggestions to improve the quality of the paper.
+- As described in the methodology, initial experiments are conducted on a validation set separated from given training data, but the used ratio for data split is not mentioned.
+- It is better to explain the concept behind soft voting and it will be useful for the readers new to this area.
+- As mentioned in the author instructions, do not use full citations as sentence constituents.
+e.g. “(Hurriyetogluet al., 2021) constructed a corpus…” should be changed to “Hurriyetogluet al. (2021) constructed a corpus…”.
+- It will be worth mentioning the best system results per each language to allow the reader to compare the system suggested by this paper with the best-submitted solution for this shared task.
+---------------------------------------------------------------------------
+
+
+
+============================================================================
+                            REVIEWER #3
+============================================================================
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                   Appropriateness (1-5): 4
+                           Clarity (1-5): 4
+      Originality / Innovativeness (1-5): 2
+           Soundness / Correctness (1-5): 3
+             Meaningful Comparison (1-5): 3
+                      Thoroughness (1-5): 1
+        Impact of Ideas or Results (1-5): 2
+                    Recommendation (1-5): 3
+               Reviewer Confidence (1-5): 4
+
+Detailed Comments
+---------------------------------------------------------------------------
+In this paper the authors described their models for CASE 2021 Shared Task 1-Subtask 2 (Sentence Classification). The authors applied three transformer based pretrained models for this subtask, including multilingual BERT, multilingual DistilBERT and RoBERTa. Experiment results on the validation set showed that the multilingual DistilBERT based model achieved better accuracy than the other two models, while a soft voting of all the three models achieved the highest accuracy.
+
+Since this is a multilingual task for languages with different numbers of training examples (the number of examples for Spanish/Portuguese is quite low compared with English), the authors combined the examples of the three languages. It is worth investigating how combining the examples could affect the performance of the low-resource languages (Spanish and Portuguese) as well as the high-resource language (English) with more experiments.
+
+For Tables 1 and 2, I think the “Event” label should be “Not-event,” and the “Not-event” label should be “Event.”
+---------------------------------------------------------------------------
