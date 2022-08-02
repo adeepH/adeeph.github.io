@@ -113,3 +113,16 @@ a {
   color: #BD5D38; }
   a:hover, a:focus, a:active {
     color: #824027; }
+
+#logo {
+  /*display: inline-block;*/
+  /*margin: 10px; *//* margin: 20px was off */
+  /*float: left; */
+  height: 10px;
+  width: 10px; /* correct proportions to specified height */
+  border-radius: 50%; /* makes it a circle */
+}
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
