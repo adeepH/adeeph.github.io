@@ -1,0 +1,20 @@
+@article{DBLP:journals/corr/abs-2112-15417,
+  author    = {Sean Benhur and
+               Roshan Nayak and
+               Kanchana Sivanraju and
+               Adeep Hande and
+               Subalalitha Chinnaudayar Navaneethakrishnan and
+               Ruba Priyadharshini and
+               Bharathi Raja Chakravarthi},
+  title     = {Hypers at ComMA@ICON: Modelling Aggressiveness, Gender Bias and Communal
+               Bias Identification},
+  journal   = {CoRR},
+  volume    = {abs/2112.15417},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2112.15417},
+  eprinttype = {arXiv},
+  eprint    = {2112.15417},
+  timestamp = {Wed, 05 Jan 2022 17:44:28 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2112-15417.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}

@@ -1,0 +1,132 @@
+Paper Decision
+ACL 2022 Workshop LT-EDI Program Chairs
+25 Mar 2022ACL 2022 Workshop LT-EDI Paper17 DecisionReaders: Program Chairs, Paper17 Area Chairs, Paper17 Reviewers, Paper17 Authors
+Decision: Accept (Oral)
+[–]
+The Best of both Worlds: Dual Channel Language modeling for Hope Speech Detection in low-resourced Kannada
+ACL 2022 Workshop LT-EDI Paper17 Reviewer krft
+24 Mar 2022ACL 2022 Workshop LT-EDI Paper17 Official ReviewReaders: Program Chairs, Paper17 Area Chairs, Paper17 Reviewers, Paper17 Authors
+Review:
+The paper is coherent and well written. The paper does hope speech classification for code-mixed languages kannada-English. The authors explore various classical machine learning methods as well as BERT-based models. Unsurprisingly, BERT based models perform better than ML methods for hope-speech classification.
+
+The authors used the idea of using a two module system where in the first part the system they used a multilingual model that is trained on original code-switched data. The second part of the system is an English language BERT model that is trained on translated code-switched data. The authors call this a dual channel model. We see that these dual channel models perform better than classical machine learning models. The models also perform better than single BERT models.
+
+The authors did not compare their work to previous work which would have been a good benchmark to compare the dual-channel model used in the paper. Simple machine learning models are not very strong baselines.
+
+Overall, the paper is well written and the experiments are thorough. This paper should be considered a collection of experiments for hope-speech detection which is not very high on novelty.
+
+Rating: 6: Marginally above acceptance threshold
+Confidence: 5: The reviewer is absolutely certain that the evaluation is correct and very familiar with the relevant literature
+[–]
+The paper attempts to use dual channel language modelling to identify hope speech in low-resource Kannada. After reading the entire report, one thing that remains unclear to me is the meaning of the term "The Best of bothWorlds." This sentence is not mentioned anywhere in the paper except in the title. I'm not sure how it fits in with the title. The paper is well-written, but it needs some significant revisions.
+ACL 2022 Workshop LT-EDI Paper17 Reviewer AU4C
+23 Mar 2022ACL 2022 Workshop LT-EDI Paper17 Official ReviewReaders: Program Chairs, Paper17 Area Chairs, Paper17 Reviewers, Paper17 Authors
+Review:
+In Section 1: Introduction, please check the citation for citepjohnson 2021. Table 1 is nowhere cited in the text. Also explain Table 1 as its meaning is unclear. Usually, the number of tokens and vocabulary size are equal. But, Table 1 shows different statistics. In Line no 184-188, the author is explaining about Table 2 corpus statistics. In Table 2, nowhere vocabulary size is mentioned. Vocabulary size is mentioned in Table 1. Please rephrase the paragraph. Figure 1 is nowhere cited in the text. In line no 204, author writes “The difference in the distribution 204 after removing the sentences with the Not-Kannada 205 label is shown in Fig 2.”. But in Figure 2 the proposed model flow diagram is presented. Also, in text it is written as “Fig. 2” but in Table caption it is written as “Figure 2”. There is a clear inconsistency. Even a few similar terms are written in different ways like hopespeech and hope speech. In line no 212, citation is wrong; citep- sklearn api. In line no 227, author mentioned that “(TF-IDF) values ranging from 0.1 to 5 grammes”. IS it 0.1 to 5 grammes or 1 to 5 gram? Please check. Check the line no 234 for “textitMinkowski”. In line no 237, author says that “The maximum depth for decision trees and random forests was 800……”. But, in line no 243, it is written as “We set the maximum depth for the decision tree classifier to 500…..”. Which one is considered in experiment 800 or 500 depth. Section 4.1 needs revision. The paragraph starting in line no 279 is repeated from its previous paragraph. Table 3 is nowhere mentioned in the text. Figure 2 is nowhere cited in the text. Please write the 3rd column header in Table 5.
+
+Rating: 6: Marginally above acceptance threshold
+Confidence: 5: The reviewer is absolutely certain that the evaluation is correct and very familiar with the relevant literature
+[–]
+interesting approach with some potential conceptual flaws
+ACL 2022 Workshop LT-EDI Paper17 Reviewer Uipw
+21 Mar 2022ACL 2022 Workshop LT-EDI Paper17 Official ReviewReaders: Program Chairs, Paper17 Area Chairs, Paper17 Reviewers, Paper17 Authors
+Review:
+nice idea to focus on "hope speech" instead of "hate speech"
+focus on code-mixed language variety is great and useful if this is to be applied to actual social media data
+in preprocessing you replace emojis with one word: it's unclear to me that emojis unambiguously reflect one emotion - their use is highly contextual
+the distinction between "hope" and "not-hope" speech is also a bit unclear to me; I am not sure that the example expressing negative opinions about TikTok ("I am addicted to TikTok but it is not bigger than our nation") in Figure 1, expresses "hate" towards TikTok - this is perhaps indicative of a larger conceptual problem with this paper: is all negative affect in all contexts "not-hope"? What about negative sentiments that express hope/a positive message (e.g. "I hate war" or even more specific versions like "I hate X" where X denotes an authoritarian government?)
+I am less qualified to comment on the experimental setup, but the description of methods and results seems clear
+Rating: 6: Marginally above acceptance threshold
+Confidence: 3: The reviewer is fairly confident that the evaluation is correct
+[–]
+The Best of both Worlds: Dual Channel Language modeling for Hope Speech Detection in low-resourced Kannada
+ACL 2022 Workshop LT-EDI Paper17 Reviewer F9jZ
+21 Mar 2022ACL 2022 Workshop LT-EDI Paper17 Official ReviewReaders: Program Chairs, Paper17 Area Chairs, Paper17 Reviewers, Paper17 Authors
+Review:
+Pros: -The major contribution of this paper is the proposal of an xlnet-xlmr dual-channel language model that gives a better weighted F1 score than the dual-channel roberta-mbert model described in a pervious paper (Hande et al.)
+
+-The methodology has been described clearly and the results section has made an attempt to describe the reasons behind certain shortcomings of the various models.
+
+Cons:
+
+The related work section has sentences that are highly similar to the previous paper by Hande el al.
+For example, the following sentence is in the original paper: "Several researchers have worked on engendering positivity on social media by developing and analysis of systems that filter out malignancy on social media by focusing on very specific events such as crisis and war". A similar sentence is in this paper "Several researchers have worked to promote positivity on social media by developing and analysing systems that filter out malignancy on social media by focusing on very specific events such as crisis and war". Although this paper and the previous paper do draw on the same kind of previous work done and some overlap is inevitable, this does not mean that one can just take the same sentences from one paper and put in another paper.
+Figure 1 and Figure 2 are taken from the previous paper (Hande et al.) without any citation.
+There is no mention of the fact that this method performed better than the method described in the previous paper. I had to look that up on my own. There was no discussion on comparing this method to the method described by Hande et al.
+In line 163 examples of hope speech and not hope speech are missing.
+Rating: 5: Marginally below acceptance threshold
+Confidence: 5: The reviewer is absolutely certain that the evaluation is correct and very familiar with the relevant literature
+[–]
+The paper is on using dual channel for code-mixed kannada hope speech detection. Minor table adjustments, sentence grammar corrections and some additional comparisions are needed.
+ACL 2022 Workshop LT-EDI Paper17 Reviewer 2xTE
+21 Mar 2022ACL 2022 Workshop LT-EDI Paper17 Official ReviewReaders: Program Chairs, Paper17 Area Chairs, Paper17 Reviewers, Paper17 Authors
+Review:
+Pros: Good approach of using dual channel for modeling hope speech detection The provided code is clear.
+
+Cons:
+
+Minor grammatical and semantic errors. Such as,
+
+As a result, we concentrate our research on developing systems to detect hope speech in code-mixed Kannada. As a result, we present DC-LM, a dual-channel language model... -> Improve the sentence quality. As a result can be replaced with "Thus" or "Hence."
+
+Remove such codes (ISO 639-3:kan). They make the reviewer difficult to understand/focus on.
+
+In Line 162 Some examples of Hope speech and Not-hope speech classes are: -> Examples are missing.
+
+Spacing between 206 and 207 lines. Adjust them
+
+The text contains Kannada, code-mixed Kannada-English, and English words.
+
+Table 4 has crossed the specified width. Correct it.
+
+Some captions are placed on the table, and some are placed after the table. Some captions are in the middle, and some have left adjustments. No consistency.
+
+The success of the transformer architecture Vaswani et al., 2017) has resulted in the transformation of recurrent neural networks (RNN) to transformer-based models -> this sentence is wrong. The transformer and RNN networks are completely different. RNN uses dependencies from GRU and LSTM architectures. The transformer is modeled using a series of self-attention, feed-forward, and layer normalizations.
+
+Line 290, No need to mention sigmoid's function. It is a basic concept known to every ML research scientist. Remove it.
+
+Line 380 code is available at 8 (sentence appears missing). Change it to the code is made publically available. And add the code's reference at publically available.
+
+Any preprocessing is done to handle code-mixed Kannada English? Code-mixed Kannada-English has a lot of variations in spellings, and translation might not be correct using google trans API.
+
+As this data is obtained from the shared task, the authors must include the results' baselines of top-performing models from the shared task. And the explanation should be given on why the current approach is better than the top-performing models from the shared task.
+
+The paper's grammar and sentence format should be corrected.
+
+Rating: 6: Marginally above acceptance threshold
+Confidence: 5: The reviewer is absolutely certain that the evaluation is correct and very familiar with the relevant literature
+[–]
+The Best of both Worlds: Dual Channel Language modeling for Hope Speech Detection in low-resourced Kannada
+ACL 2022 Workshop LT-EDI Paper17 Reviewer p4mh
+20 Mar 2022ACL 2022 Workshop LT-EDI Paper17 Official ReviewReaders: Program Chairs, Paper17 Area Chairs, Paper17 Reviewers, Paper17 Authors
+Review:
+This paper focuses on positivity reinforcement over negativity reduction, with a dual-channel LM, jointly modelled on English and ‘code-mixed’ Kannada.
+
+Minor: check your LaTeX around L27, L59, L419, and elsewhere.
+
+Minor: check your formatting around L76, L447, and your grammar around L141 (“The dataset is”), and elsewhere.
+
+Also check your references for completeness (e.g., Loshchilov and Hutter (2019), Palakodety et al (2020)) and formatting (e.g., capitalization).
+
+The related work section is brief but relevant, and the dataset appears appropriate, although it is not clear on the surface as to whether the Hope class is also inclusive of people not ‘battling depression, loneliness, [or] stress’. It is also not clear whether the topic of EDI (L148) is necessarily ‘hopeful’, as it could be expressed in a negative way. It also appears that the ‘non-hope’ category is a combination of explicitly negative language and merely neutral language (L160), making this a potentially complex category.
+
+The examples around L163 are not provided
+
+it is not clear why emojis should be replaced with one word (out of many?) that they could represent (as in L172-179) as surely large LMs trained on minimally-processed data would already incorporate emojis appropriately?
+
+it is odd that the tokens/post and sentences/post are exactly integers in Table 1.
+
+the vocabulary of 19K can hardly be classified as ‘enormous’ (L187) by today’s standards
+
+Minor: technically, RNNs didn’t ‘transform’ (L253) into transformers.
+
+the use of the Google translation API is not strictly reproducible, long-term, and is a fairly closed solution, from the point-of-view of academic research. Otherwise, the architecture (visualized in Fig 2 and described at length) appears appropriate. There is some motivation for this ‘dual channel’ approach (L339-345) but it is really a single channel, with one path being a modification of another. This will largely help to leverage monolingual English models, but the authors are recommended to consider alternatives.
+
+the paper breaks anonymity by linking to the code from L380.
+
+One wonders whether an excess of positivity might itself have deleterious consequences (think ‘Brave New World’ over ‘1984’), but that discussion is perhaps irrelevant to the paper.
+
+In general, it is a good idea to focus on positivity rather than only negativity, and doing so in atypical languages, especially in less resource-rich languages, is commendable. The models are well described although somewhat less well motivated, with the Google component potentially replaceable. I see no explicit reason to doubt the results (e.g., in Table 4), and the various formatting issues should be addressable.
+
+Rating: 5: Marginally below acceptance threshold
+Confidence: 5: The reviewer is absolutely certain that the evaluation is correct and very familiar with the relevant literature

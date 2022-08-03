@@ -1,0 +1,50 @@
+
+Manuscript Number: YCSLA-D-21-00263  
+
+Offensive Language Identification in Low-resourced Code-mixed Dravidian languages using Pseudo-labeling
+
+Dear Dr. Chakravarthi,
+
+Thank you for submitting your manuscript to Computer Speech & Language.
+
+I have completed my evaluation of your manuscript. The reviewers recommend reconsideration of your manuscript following major revision. I invite you to resubmit your manuscript after addressing the comments below. Please resubmit your revised manuscript by Mar 03, 2022.
+
+When revising your manuscript, please consider all issues mentioned in the reviewers' comments carefully: please outline every change made in response to their comments and provide suitable rebuttals for any comments not addressed. Please note that your revised submission may need to be re-reviewed. 
+
+To submit your revised manuscript, please log in as an author at https://www.editorialmanager.com/ycsla/, and navigate to the "Submissions Needing Revision" folder.  
+
+Computer Speech & Language values your contribution and I look forward to receiving your revised manuscript.
+
+Kind regards,    
+Srinivas Bangalore  
+Editor  
+
+Computer Speech & Language
+
+Editor and Reviewer comments:
+
+
+
+Reviewer #1: The language identification of code-mixed languages is a practical research, and this paper proposes an approach to  solve this problem by generating pseudo-label. This paper is well writtened, and examples are clarify. However, there is only a few paragraphs showing how they get pseudo-label nor how they use the pseudo-labels to get performance improvements. And there are too many introductions of different BERT models. This paper looks not much innovative, and I suggest the authors highlight more on new approaches. The results show performance improvements but this seems to the attribution of data increasing.
+
+
+
+Reviewer #2: 1. Authors mentioned that "Several researchers have worked on developing systems to detect the offensive language in English, Turkish
+(Zampieri et al., 2020)". Actually, this shared task was for 5 languages not only two.
+
+2. Some parts in "Dravidian Languages" section need examples and explanation, ex: where *ezuttu* is defined
+
+3. A small typo: insert a space before "(" as in Tigalari script(Sekhar, 1951;..
+
+4. Missing "(" in: Offensive-Targeted-Insult-Individual OTI)
+
+5. I think it will be useful to add percentages to tables 2 and 3
+
+6. Please add more explanation to the last 2 rows in figures 1, 2 and 3
+
+7. You can make some numbers bold in table 5 to show best results.
+
+8. MOST IMPORTANTLY, I couldn't understand the main idea of the paper of using pseudo-labeling.
+Starting from a small number of annotated examples, how can we increase training data?
+If we want to apply this to other languages, ex: Urdu, what are the exact steps that we can follow?
+I read the paper carefully, but found this crucial part hard to understand.

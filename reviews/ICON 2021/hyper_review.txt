@@ -1,0 +1,214 @@
+Dear Adeep Hande:
+
+On behalf of the ComMA@ICON 2021 Program Committee, I am delighted to inform you that the following submission has been accepted to appear at the conference:
+
+Hypers at ComMA@ICON: Modelling Aggressive, Gender Bias and Communal Bias Identification
+
+The Program Committee worked very hard to thoroughly review all the submitted papers. Please repay their efforts, by following their suggestions when you revise your paper.
+
+Please revise and submit your revised paper latest by December 5, 2021, failing which we will not be able to include your paper in the proceedings.
+
+When you are finished, you can upload your final manuscript at the following site:
+
+https://www.softconf.com/icon2021/MultiGen-2021/
+
+You will be prompted to login to your START account. If you do not see your submission, you can access it with the following passcode:
+
+5X-H4J5E5J5B4
+
+Alternatively, you can click on the following URL, which will take you directly to a form to submit your final paper (after logging into your account):
+
+https://www.softconf.com/icon2021/MultiGen-2021/user/scmd.cgi?scmd=aLogin&passcode=5X-H4J5E5J5B4
+
+The reviews and comments are attached below. Again, try to follow their advice when you revise your paper.
+
+Congratulations on your fine work. If you have any additional questions, please feel free to get in touch.
+
+Best Regards,
+Organizers
+ComMA@ICON 2021
+
+============================================================================
+ComMA@ICON 2021 Reviews for Submission #5
+============================================================================
+
+Title: Hypers at ComMA@ICON: Modelling Aggressive, Gender Bias and Communal Bias Identification
+Authors: Sean Benhur, Roshan Nayak, Kanchana Sivanraju, Adeep Hande, CN Subalalitha, Ruba Priyadharshini and Bharathi Raja Chakravarthi
+
+
+============================================================================
+                            REVIEWER #1
+============================================================================
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                   Appropriateness (1-5): 5
+                           Clarity (1-5): 3
+      Originality / Innovativeness (1-5): 3
+           Soundness / Correctness (1-5): 4
+             Meaningful Comparison (1-5): 4
+                      Thoroughness (1-5): 4
+        Impact of Ideas or Results (1-5): 3
+                    Recommendation (1-5): 4
+               Reviewer Confidence (1-5): 4
+
+Detailed Comments
+---------------------------------------------------------------------------
+The paper is generally understandable and coherently written, and the approach is well documented. The choice of models and experiments run seem well motivated with respect to the tasks they were used for. The hyperparameters used, experimental setup, preprocessing done and the pretrained models used for their experimentation have been clearly mentioned.
+
+Some suggestions and feedbacks regarding the paper are highlighted below:
+
+CITATION ISSUES:
+- Muril [37] (The citation format seems improper on page 3 section 3.2.1)
+- Bangla BERT citation seems to be missing
+
+The paper in general has a couple of grammatical and formatting issues that if fixed may improve its readability further. Some of these fixes may be minor issues.
+
+
+SUGGESTED GRAMMATICAL CORRECTIONS:
+
+Title: "Modelling Aggressive, Gender Bias and Communal Bias Identification". The usage of the word "Aggressive" in the title seems grammatically incorrect with respect to the word "Modelling".
+
+ABSTRACT:
+- "Due to the **exponential** increasing reach of social media" should be "Due to the **exponentially** increasing reach of social media".
+- The words "Hindi" and "Bengali" are uppercased in the abstract but "meitei" and "multilingual" are lowercased. Would recommend fixing them for consistency.
+
+1 INTRODUCTION (Page 1)
+
+- In the sentence "We will be focusing on three reasons **that is** the user is being aggressive on some individual or a community, or being biased regarding the gender (Jatmiko et al.,2020), or is targeting a particular religion or caste (Roy and Shukla)." => The sentence seems grammatically incorrect around the phrase "that is".
+
+1 INTRODUCTION (Page 2)
+
+- Recommend a grammatical check on caption of Table 1 ("Table 1: Samples from the dataset indicate aggressiveness and if its gender bias and communal bias.")
+
+- The header "language" in table 1 can be upper cased for consistency
+
+- In sentence "This paper is organized **as follows**,section 2 describes about dataset used for the shared task" has some grammatically issue around "as follows".
+
+2 DATASET (Page 2)
+
+- "The ComMA dataset was provided in this task (Kumar et al., 2021a)**, annotated for** aggression identification, gender bias, and communal bias for multilingual social media sentences(Kumar et al., 2021b)." => The sentence flow has an abrupt jump around ", annotated for"
+
+- "The dataset comprises of code-mixed sentences has 15,000 sentences." => would suggest changing it to "The dataset comprises of 15,000 code-mixed sentences".
+
+- In section 2, the multilingual set has referred as "multi" and "multiset". Could keep the notation consistent.
+
+- Suggest changing sentence "The sentences in every set are classified into one of the classes **of three tasks.**" to "The sentences in every set are classified into one of the classes **for each of the three tasks.**".
+
+- "Communal Bias Classification: The text is divided into communal (COM) **and** non-communal (NCOM)" -> Instead of "and", "or" could be used for consistency with above two bullet points.
+
+3.2 (including its children sections) Pretrained models (Page 3)
+
+- Notation for Bengali BERT and BanglaBERT are used interchangeably -> Could keep the notation consistent
+
+- Sentence "MURIL is a pretrained model, specifically made for Indian languages MuRIL [37], the pretrained model, is trained in 16 different Indian Languages." can be broken in two around around "," in phrase "languages MuRIL [37]**,** the pretrained".
+
+3.3 ATTENTION POOLER (Page 3)
+
+- A dangling ":" is found at start of section
+
+- Could you please add a description for the variables used in equation 2.
+
+4 RESULTS (Page 4)
+
+"we hypothesize that MURIL was trained both on transliterated pairs on TLM objective the Meitei dataset also only consisted of code-mixed texts." => the sentence could be rephrased.
+
+- Results section is dotted with typos and formatting issues. Could you please check?
+
+TABLES:
+
+- "Table 3: Samples were distributed in the dev set" could be changed to "Distribution of samples in the dev set"
+- Table 4 caption, suggest clarifying if the precision, recall and f1-score are "micro-avg" scores or computed in some other way.
+---------------------------------------------------------------------------
+
+
+Questions for Authors
+---------------------------------------------------------------------------
+- Could the authors clarify on what "tickets" mean in section 3.2.2? Did the authors intend to mean "tokens"?
+
+- It is observed that, in Table 4 in which the authors reported their scores on their dev set, for all the models, the precision, recall and f1-score are exactly equal for all models across all languages across all architectures. Could you please check if was an unintended mistake or an expected outcome?
+
+- In section 3.3, the attention operations seems to have been applied on all the hidden states of the tokens from the final layer of the transformer but equations 1 seems to indicate that the attention operation is only performed on the CLS token (h_{CLS}). Could you kindly clarify the methodology and qualify the notations used in equations (1) and (2).
+---------------------------------------------------------------------------
+
+
+
+============================================================================
+                            REVIEWER #2
+============================================================================
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                   Appropriateness (1-5): 4
+                           Clarity (1-5): 5
+      Originality / Innovativeness (1-5): 4
+           Soundness / Correctness (1-5): 5
+             Meaningful Comparison (1-5): 4
+                      Thoroughness (1-5): 4
+        Impact of Ideas or Results (1-5): 4
+                    Recommendation (1-5): 4
+               Reviewer Confidence (1-5): 4
+
+Detailed Comments
+---------------------------------------------------------------------------
+(a) Team has not followed the instructions given for writing the system description paper, in which template (ACL) requirement is not followed. Names of authors are given in the submitted paper because of another template. Specific ACL template link for ICON 2021 is given in the paper submission page on the official website of the ComMA shared task (https://sites.google.com/view/comma-at-icon2021/paper-submission).
+
+(b) Team has included the required citations (of the dataset and task description papers).
+
+(c) Paper includes sufficient information so as to reproduce the experiments.
+
+(d) A good error analysis is not given in this paper.
+
+(e) The citations, tables, and figures are properly formatted.
+
+(f) Paper is written in proper academic English.
+
+(g) Paper is understandable by an international audience.
+
+
+The paper has several minor issues which the authors should be able to change/modify.
+
+Issues in detail:
+
+Abstract:
+
+- Please mention the team name in the abstract.
+- Confirm and change Multilingual and Bangla F1 score and rank in the results page on the official website of ComMA shared task (https://sites.google.com/view/comma-at-icon2021/results).
+
+1. Introduction:
+
+- Cite some shared tasks related to aggression, gender bias, misogyny, or hate speech in the second last paragraph of the introduction.
+- "The data is divided into four sets, namely Hindi, Meiti, Bengali, and Multi." -> Language order should be less resourced to high resourced, spelling error in Meitei: "The data is divided into four sets, namely Meitei, Bangla, Hindi, and Multi."
+
+2. Dataset:
+
+- See the spelling of Meitei ("Meiti") in Table 1 and follow the sequencing of languages in Tables of the dataset and task description papers.
+
+- The training datatset count given in Table 2 for each subtask for Bangla is incorrect -> Check the right count in ComMA dataset paper (Kumar et al., 2021b).
+
+- The sequence of languages in Table 2 should be like Meitei, Bangla, Hindi, and Multi which is also given in ComMA dataset paper.
+
+- Take care of space "Table2" -> "Table 2".
+
+3. Methodology:
+3.3 Attention Pooler:
+
+- ": The attention operation described" -> "The attention operation described".
+
+3.3.3 BanglaBert:
+
+- Mention citation of this model.
+
+4 Results:
+
+- The sequence of languages in Tables 3 and 6: "Bengali, Hindi, Meitei and Multi" -> "Meitei, Bangla, Hindi, and Multi", less resourced to well resourced.
+
+- Please update all the latest F1 scores and ranks in Table 6 and the results section from the official website of ComMA (https://sites.google.com/view/comma-at-icon2021/results).
+
+- "Rank 4with 0.129 Instance F1" -> "Rank 4 with 0.129 Instance F1"
+
+- Team could add error analysis and comparison with the baseline system present in the ComMA dataset paper in his system description paper.
+---------------------------------------------------------------------------
+

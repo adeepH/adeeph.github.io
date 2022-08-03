@@ -1,0 +1,23 @@
+@inproceedings{chakravarthi-etal-2022-findings,
+    title = "Findings of the Shared Task on Multi-task Learning in {D}ravidian Languages",
+    author = "Chakravarthi, Bharathi Raja  and
+      Priyadharshini, Ruba  and
+      Cn, Subalalitha  and
+      S, Sangeetha  and
+      Subramanian, Malliga  and
+      Shanmugavadivel, Kogilavani  and
+      Krishnamurthy, Parameswari  and
+      Hande, Adeep  and
+      U Hegde, Siddhanth  and
+      Nayak, Roshan  and
+      Valli, Swetha",
+    booktitle = "Proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.dravidianlangtech-1.43",
+    doi = "10.18653/v1/2022.dravidianlangtech-1.43",
+    pages = "286--291",
+    abstract = "We present our findings from the first shared task on Multi-task Learning in Dravidian Languages at the second Workshop on Speech and Language Technologies for Dravidian Languages. In this task, a sentence in any of three Dravidian Languages is required to be classified into two closely related tasks namely \textit{Sentiment Analyis} (\textbf{SA}) and \textit{Offensive Language Identification} (\textbf{OLI}). The task spans over three Dravidian Languages, namely, Kannada, Malayalam, and Tamil. It is one of the first shared tasks that focuses on Multi-task Learning for closely related tasks, especially for a very low-resourced language family such as the Dravidian language family. In total, 55 people signed up to participate in the task, and due to the intricate nature of the task, especially in its first iteration, 3 submissions have been received.",
+}

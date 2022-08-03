@@ -1,0 +1,124 @@
+Manuscript Number: JJIMEI-D-21-00359  
+
+Modeling Homophobia and Transphobia detection using Data-Augmentation in a Multilingual Code-mixed Setting
+
+Dear Dr. Chakravarthi,    
+
+Thank you for submitting your manuscript to International Journal of Information Management Data Insights.
+
+I have completed my evaluation of your manuscript. The reviewers recommend reconsideration of your manuscript following revision. I invite you to resubmit your manuscript after addressing the comments below. Please resubmit your revised manuscript by Aug 19, 2022.
+ 
+When revising your manuscript, please consider all issues mentioned in the reviewers' comments carefully: please outline in a cover letter every change made in response to their comments and provide suitable rebuttals for any comments not addressed. Please note that your revised submission may need to be re-reviewed.     
+
+To submit your revised manuscript, please log in as an author at https://www.editorialmanager.com/jjimei/, and navigate to the "Submissions Needing Revision" folder under the Author Main Menu.
+
+International Journal of Information Management Data Insights values your contribution and I look forward to receiving your revised manuscript.
+  
+Kind regards,    
+Arpan Kumar Kar, Ph.D  
+Editor-in-Chief  
+International Journal of Information Management Data Insights    
+
+Editor and Reviewer Comments:    
+
+
+
+Editorial feedback
+The reviewers see merit in your manuscript. However they also have concerns and have suggested areas of improvement. In the revision, please address all their comments. Additionally, this requires some more areas to focus on.
+
+The introduction needs to be strengthened in terms of problematization. Problematization is a very important element in Information Systems literature in signaling the study for future contributions (and hence future citations). Why is the work important now?
+
+Further, in the revision, please strengthen the connect with information systems literature, especially information management journals. Increase also the connect with published literature in this journal so that it caters to existing audience of this journal (at least 5-7 recent papers). Some of the review papers published in this journal may be relevant.  We have published review papers in text mining and big data analytics in the past.
+
+Strengthen and arrange the methodology section in terms of subsections for Data collection, Data analysis and Robustness checks.
+
+Strengthen the discussion section before the conclusion. There should be a subsection, Contributions to literature and Implications for practice.
+
+Ensure all the references are completed and documented appropriately. The manuscript should build upon minimum 35-40 references, which are mostly from Management Information Systems journals.
+
+We look forward to receiving your revised submission once changes are incorporated.
+
+
+Reviewer #1: Paper summary
+
+The authors developed a methodology to augment the data using psuedolabling for detecting homophobic/transphobic speech in a code-mixed multilingual setting. They transliterate the code-mixed text into the parent language to improve the models' performances. They have employed several multilingual language models for evaluating the performance. They carried out statistical tests to infer the significance of the performance.
+
+Strengths
+
+New domain in the field of abusive language identification.
+Experimented a few deep models on the datasets.
+
+Weaknesses
+The manuscript lacks in the empirical analysis part. The authors can also evaluate traditional learning algorithms and compare with the deep learning methods. Error analysis can also be included.
+
+Comments
+
+The data sets used for evaluations can be mentioned in the abstract.
+
+Figure 1, Figure 2 can be referred in text.
+
+"According to European Union Commission directives, hate speech should be criminalized" - citation/link can be given.
+
+"On the basis of this requirement, the primary contribution of this article is to definition of homophobia and transphobia based on various research published research." - grammar
+
+Related work section can be elaborated with hate speech / abusive language / offensive language detection in code-mixed data. Open challenges can be mentioned with respect to the methodologies used in these research areas.
+
+"Homophobia and Transphobia are two concepts that tend to provide unfavourable perceptions towards homosexual and transsexual people.". The definition can be moved to Introduction section rather than Dataset section.
+
+Annotation guidelines and the details about inter-rater agreement can be included in the paper.
+
+The data set description section can starts with the definitions of Homophobic content, Transphobic content, etc. "The dataset is classified at three levels, namely, first level, second-level, and third-level identification.". This statement can be moved after the basic definitions.
+
+What are HT dataset and DA-HT dataset in Tables 1, 2 and 3?
+
+Dataset distribution can be given for each category of text namely English, Tamil and English-Tamil code-mixed at all levels.
+
+Methodology of the proposed approach can be formalized using an algorithm.
+"we apply a t-test and a weighted F1-score as the evaluation metric," - t-test is not an evaluation metric. Sentence can be corrected.
+
+The inference of the t-test is not clear. How will you claim your approach statistically improving the performance?
+
+In Table 6, the authors mentioned the increase/decrease of accuracies. More clarity can be given to which methods they are comparing.
+
+Table 6 is not indicating the results of two data sets.
+
+Error analysis section can be included.
+
+Research contributions can be highlighted.
+
+
+Typos
+
+Abstract : "homophobia and Transphobia" : either  use "homophobia and transphobia" or "Homophobia and Transphobia"
+Section 1 : "homophobia transphobia," - include conjunction
+from Kakwani et al., - year missing
+EWe - in section 4.1
+"Additionally, we conduct a student ttest on the outputs obtained on the five folds during training" - what is student ttest?
+T-test, t-test or ttest - use uniformly throughout the document.
+"tarefcr comprises of" ???
+nBERT - ??
+
+
+Replicability
+
+What are tools and libraries used to implement their approach? This can be included in the manuscript with citations to help the readers to reproduce the results.
+
+Software
+
+A link for the software developed by the authors can be given with proper instructions on how to run the code.
+
+
+
+
+Reviewer #2: The article is well written and discusses an important issue. With suggested changes, it can be considered. I found some limitations, which are listed below:
+The introduction should clearly explain the key limitations of prior work relevant to this paper. Please add a table that summarizes all the notations used in the paper.  The authors need to explain better the context of this research, including why the research problem is important.
+
+The literature review can be strengthened by adding similar research published recently. For example, "Hate speech and offensive language detection in Dravidian languages using deep ensemble framework, A Framework for Hate Speech Detection Using Deep Convolutional Neural Network." and similar ones.
+
+To ensure reproducibility of the results, the code of the proposed solution should be made public.
+
+The experiments have been carried out with some data that is not publicly available. Authors should make it available on some public websites so that experiments can be reproduced. Some text must be added to discuss future work or research opportunities.
+  
+  
+
+   

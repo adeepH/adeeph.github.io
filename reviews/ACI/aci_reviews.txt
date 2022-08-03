@@ -1,0 +1,36 @@
+Dear Dr. CHAKRAVARTHI,
+
+We have received the reports from our advisors on your manuscript, "Analysing the significance of Images in Tamil Meme classification", which you submitted to Advances in Computational Intelligence.
+
+Based on the advice received, I have decided that your manuscript could be reconsidered for publication should you be prepared to incorporate major revisions. When preparing your revised manuscript, you are asked to carefully consider the reviewer comments which can be found below, and submit a list of responses to the comments. You are kindly requested to also check the website for possible reviewer attachment(s).
+
+While submitting, please check the filled in author data carefully and update them if applicable - they need to be complete and correct in order for the revision to be processed further.
+
+In order to submit your revised manuscript, please access the following web site:
+
+https://www.editorialmanager.com/adci/
+
+Your username is: BChakravarthi-749
+If you forgot your password, you can click the 'Send Login Details' link on the EM Login page.
+
+We look forward to receiving your revised manuscript before 07 Jun 2022.
+In order to add the due date to your electronic calendar, please open the attached file.
+
+With kind regards,
+Carmen De Maio
+Associate Editor (JAIC)
+Advances in Computational Intelligence
+
+Comments to the author (if any):
+Reviewer #1: Well revised.
+
+
+Reviewer #2: This paper is concerned with the classification of images using deep learning approaches and multimodel techniques. A case study of Tamil was considered.
+
+- The results and the idea are clear, but the discussion on the adopted methods is still needed to be further expanded.
+- The are some typos that should be corrected as "TImage with text (IWT)"
+- The motivation part is too short and should be more expanded
+- You used a binary classification, which is too simple to realize. Then authors should clarify the complexity in this work compared to the literature.
+- Some related references on the classification and prediction of memes are missing, ad for example the recent paper "Two-Way Feature Extraction Using Sequential and Multimodal Approach for Hateful Meme Classification", see also references inside. See also "Classification of Hateful Memes Using Multimodal Models"
+- More results of classification should be added to boost the results and efficiency of the adopted methods and tools.
+

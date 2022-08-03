@@ -1,0 +1,16 @@
+inproceedings{palanikumar-etal-2022-de,
+    title = "{DE}-{ABUSE}@{T}amil{NLP}-{ACL} 2022: Transliteration as Data Augmentation for Abuse Detection in {T}amil",
+    author = "Palanikumar, Vasanth  and
+      Benhur, Sean  and
+      Hande, Adeep  and
+      Chakravarthi, Bharathi Raja",
+    booktitle = "Proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.dravidianlangtech-1.5",
+    doi = "10.18653/v1/2022.dravidianlangtech-1.5",
+    pages = "33--38",
+    abstract = "With the rise of social media and internet, thereis a necessity to provide an inclusive space andprevent the abusive topics against any gender,race or community. This paper describes thesystem submitted to the ACL-2022 shared taskon fine-grained abuse detection in Tamil. In ourapproach we transliterated code-mixed datasetas an augmentation technique to increase thesize of the data. Using this method we wereable to rank 3rd on the task with a 0.290 macroaverage F1 score and a 0.590 weighted F1score",
+}

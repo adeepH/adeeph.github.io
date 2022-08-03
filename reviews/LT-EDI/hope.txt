@@ -1,0 +1,17 @@
+@inproceedings{hande-etal-2022-best,
+    title = "The Best of both Worlds: Dual Channel Language modeling for Hope Speech Detection in low-resourced {K}annada",
+    author = "Hande, Adeep  and
+      U Hegde, Siddhanth  and
+      S, Sangeetha  and
+      Priyadharshini, Ruba  and
+      Chakravarthi, Bharathi Raja",
+    booktitle = "Proceedings of the Second Workshop on Language Technology for Equality, Diversity and Inclusion",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.ltedi-1.14",
+    doi = "10.18653/v1/2022.ltedi-1.14",
+    pages = "127--135",
+    abstract = "In recent years, various methods have been developed to control the spread of negativity by removing profane, aggressive, and offensive comments from social media platforms. There is, however, a scarcity of research focusing on embracing positivity and reinforcing supportive and reassuring content in online forums. As a result, we concentrate our research on developing systems to detect hope speech in code-mixed Kannada. As a result, we present DC-LM, a dual-channel language model that sees hope speech by using the English translations of the code-mixed dataset for additional training. The approach is jointly modelled on both English and code-mixed Kannada to enable effective cross-lingual transfer between the languages. With a weighted F1-score of 0.756, the method outperforms other models. We aim to initiate research in Kannada while encouraging researchers to take a pragmatic approach to inspire positive and supportive online content.",
+}

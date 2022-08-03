@@ -1,0 +1,148 @@
+
+The authors performed data augmentation by means of transliteration for improving the performance of detecting abusive comments in Tamil language using MURIL and traditional classifiers.
+ACL 2022 Workshop DravidianLangTech Paper9 Reviewer JM8d
+24 Mar 2022ACL 2022 Workshop DravidianLangTech Paper9 Official ReviewReaders: Program Chairs, Paper9 Reviewers, Paper9 Authors
+Review:
+Strength: • Model was explained well with all hyper parameter details
+
+Suggestions:
+
+• “Participants have used” – What do you meant by participants in the phrase used in Section 2.1. • The reference for the package to do transliteration can be cited. • In Table 2, the abbreviations can be given separately instead of giving it in Table caption. • Error analysis section can be included. • Check the second reference. It was not in a proper form. • Typos must be corrected and grammar must be checked.
+
+Typos & grammar
+
+Twitter and many more (Priyadharshini et al., 2021; Kumaresan et al., 2021). where -> after . lowercase
+
+Stats ->statistics
+
+role (Bharathi et al.). -> no year
+
+such as Offensive language detection, Machine Translation and Sentiment analysis -> unnecessary capitalization
+
+Tasks such as Abuse detection, Offensive Language Detection and Hate Speech -> unnecessary capitalization
+
+Codemixed -> code-mixed
+
+on which our system is designed which includes -> grammar
+
+followed(Hande – space before (
+
+TfIdfTrans - space
+
+Avg -> average
+
+in the task The Table 5 -> . missing
+
+Rating: 6: Marginally above acceptance threshold
+Confidence: 4: The reviewer is confident but not absolutely certain that the evaluation is correct
+[–]
+Data augmented using well defined Transliteration library and performed a general classification
+ACL 2022 Workshop DravidianLangTech Paper9 Reviewer Ydfw
+23 Mar 2022ACL 2022 Workshop DravidianLangTech Paper9 Official ReviewReaders: Program Chairs, Paper9 Reviewers, Paper9 Authors
+Review:
+Understandings: Author augmented the data using well defined library and performed a general classification.
+
+Comments:
+
+Page 1, Abstract: "With the rise of social media and internet, It is essential to provide an inclusive space and prevent the abusive topics against any gender,race or community." --> "It" first character should be in lower case and needs to insert a space between "gender,race". Please check for the similar mistakes across the paper.
+
+In the abstract it is good to describe the methodology used for abuse detection.
+
+Page 1, Introduction, Paragraph 1 2, 3 and 4: Well known facts about the social media could be avoided or just mentioned using few informative word sets to improvise the scientific presentation.
+
+Page 1, Introduction, Paragraph 2: "depression, sleeplessness" --> depression and sleeplessness
+
+Page 1, Introduction, Paragraph 5: Could avoid the repetitive points on Tamil Language.
+
+Page 1 and 2, Introduction, last Paragraph: Could rewrite concisely about the sections.
+
+Page 2: Camelcase the sub-headings (Abuse detection --> Abuse Detection) as it is followed in other sections
+
+Page 2, Section 2.1 : "Tamil is an agglutinative language, due to the ease of typing many users use Tamil in roman script in the social media and internet, this is known as code-switching (Jose et al., 2020), since it is also a morphologically rich language, developing NLP systems in Tamil is hard." --> it is good to explain the context in different sentences or interconnect the contexts. (agglutinative, roman scripting, morphologically rich)
+
+Page 3, Section 2.2 --> "Tasks such as Abuse detection, Offensive Language Detection and Hate Speech detection" --> use same casing format
+
+Page 2, Section 2.2 : Add sufficient references for the mentioned points.
+
+Page 2, Section 3 : "Table 1 shows the distribution of data among different classes before and after combining Tamil and Transliterated dataset" --> Punctuation is missing
+
+Page 2, Section 4.1: "In the shared task, two datasets were provided where one comprises of Tamil sentences while the other comprising of code-mixed Tamil-English sentences." --> repetitive point from section 3. It is good to combine the section 3 and section 4.1.
+
+Page 2, Section 4.1: "Before combining the dataset, we removed all those sentences which fell under the category of not-Tamil and then combined the Tamil dataset with the transliterated dataset ending up with 8,186 sentences which is approximately 4 times the size of the previous dataset. By this the imbalance in the dataset was reduced and we overcame the data-shortage as well." -> English sentences are dropped out but in a code-mixed scenario how english words are transliterated to Tamil.
+
+Page 2, Section 4.1.1: There are repetitive points, section 4.1.1 could be combined with section 4.1.
+
+15: Page 3, Section 4.2.1: "For experimenting with ML models, we created a pipeline where first the text is vectorized by using CountVectorizer and is transformed by TfIdfTransformer." --> CountVectorizer and TfIdfTransformer are the module name from the python libraries, please use the relevant words.
+
+NLP, ML, DL, LightGBM, Catboost, RandomForest, SVM : Though this is known to everyone, it is good to provide the full words while mentioning it on first time.
+
+Page 3, Section 4.2.1: "Catboost.Therfore" --> Typo as well as spacing error
+
+Page 3, Section 5: "Different pretrained models and ML models were trained on the training dataset and was validated on the dev dataset." --> only one language model is listed in the table
+
+General Comments:
+
+Reiterate the paper for the typos and grammatical errors.
+Could improvise the language presented, try to reformulate the informal words.
+Insufficient experiments and explanations
+Observed Contributions:
+
+Data Augmentation through transliteration using well defined library (yet it is not explained clearly)
+Rating: 5: Marginally below acceptance threshold
+Confidence: 5: The reviewer is absolutely certain that the evaluation is correct and very familiar with the relevant literature
+[–]
+Experimental story is poorly written
+ACL 2022 Workshop DravidianLangTech Paper9 Reviewer d47W
+23 Mar 2022ACL 2022 Workshop DravidianLangTech Paper9 Official ReviewReaders: Program Chairs, Paper9 Reviewers, Paper9 Authors
+Review:
+Presents a good finding to use transliteration as data augmentation but the experimental story is poorly written
+Need to re-write the paper to maintain scientific standard
+Rating: 6: Marginally above acceptance threshold
+Confidence: 4: The reviewer is confident but not absolutely certain that the evaluation is correct
+[–]
+Lack of scientific writing, Evaluation analysis is missing
+ACL 2022 Workshop DravidianLangTech Paper9 Reviewer jr4Q
+23 Mar 2022ACL 2022 Workshop DravidianLangTech Paper9 Official ReviewReaders: Program Chairs, Paper9 Reviewers, Paper9 Authors
+Review:
+Although a novel approach is used for abuse detection in Tamil language, this paper lacks the analysis of results.
+There are many grammatical mistakes. Entire paper should be reframed.
+The content is not written in scientific manner.
+Rating: 6: Marginally above acceptance threshold
+Confidence: 2: The reviewer is willing to defend the evaluation, but it is quite likely that the reviewer did not understand central parts of the paper
+[–]
+The potential quality of this paper - as evidenced by the obtained rank (3) in this shared task - suffers from the fact that - ostensibly - few efforts were made in terms of grammar/coherence/proofreading to produce a standard of presentation that one may expect in an academic paper
+ACL 2022 Workshop DravidianLangTech Paper9 Reviewer 4gfz
+23 Mar 2022 (modified: 23 Mar 2022)ACL 2022 Workshop DravidianLangTech Paper9 Official ReviewReaders: Program Chairs, Paper9 Reviewers, Paper9 Authors
+Review:
+While the idea of transliteration as a data augmentation strategy seems to be novel and reasonably unexplored in the context of Tamil/Dravidian languages and abuse detection (although I would have liked a short survey on the same strategy for other languages), little to no effort seems to have been made in terms of the presentation; especially in terms of grammar, but also in terms of coherence, the presentation is clearly below the level that may be expected from a scientific/academic article. This has a significant impact on the legibility and, consequently, on the clarity of the ideas and results produced. For example, as said in the final comment in the detailed comment list below, I'm having trouble understanding why the reported results are not found in one of the tables. Consequently, and despite the fact that the team ranked 3rd in this task, I cannot but rate this paper with a score of 5, and, should the paper be accepted, I'd urge the authors to significantly improve the writing and presentation.
+
+Detailed comments (presentation/grammar issues mainly for first page only)
+p. 1 (abstract) "Internet, It", "gender,race" "or community.This paper" - formatting: spacing and wrong capitalisation
+p. 1 (abstract) "to the ACL-2022 shared task"
+p. 1 (abstract) "we used the transliterated dataset" - What does the dataset refer to? You haven't mention any dataset yet. I suggest using the indefinite article.
+p. 1 (abstract) " ... rank 3rd with a 0.290 ...
+p. 1 "is now ... as of Jan" - either "now" or "as of Jan" (and spell out January or use dot for abbreviation)
+p. 1 "In recent times, people have become ..."
+p. 1 “also everyone wants to share their views about events on a common platform where everyone will know their views and that is where social media comes into the picture” - vague/imprecise language: rephrase
+p. 1 "On an average as per stats" - if someone else's statistics are used there should be a reference. "per stats" is also too informal.
+p. 1 "Abusive comments are the comments which humiliates or denigrates an individual or a group" - grammar: subject/verb agreement.
+p. 1 "but when it comes to .. . a very important role (Bharathi et al.)" - year in reference is missing.
+p. 1 "Tamil is one of the oldest and longest surviving language in this world" - This is a misleading and not very scientific statement. What does "the oldest ... language" mean? Do you mean that it was documented 3000 years ago? There are many languages which are "older", in that case. And did it survive, i.e. not change, over the last 3000 years (unlikely, if not impossible)? I know you gave a reference, but it strikes me as non-scientific/popular. See https://www.forbes.com/sites/quora/2018/03/26/what-is-the-oldest-language-ever-discovered/?sh=3c7daf056bac and https://en.wikipedia.org/wiki/List_of_languages_by_first_written_accounts (these are equally not entirely authoritative/scientific, but may give an indication of the problematic nature of the statement).
+p. 1 "Tamil has a lot of variations as well." - vague; what does "variations" mean?
+p. 1 "Lately, after the advent of machine learning, research are carried over onto this area to bring to classify abusive comments." - rephrase (grammar)
+p. 2 "One contains Tamil sentences and the other contains code-mixed sentences." - clarify: code-mixed with what?
+p. 2 "To overcome this data shortage issue we performed transliteration on the code-mixed dataset and we converted the sentences in that dataset also to its corresponding Tamil sentences (Hande et al., 2021) by using ai4bharat-transliteration" - I'm not sure what "its (their* (?)) corresponding Tamil sentences" involved exactly - please clarify. Also, why do you provide a reference here while you're discussing your own preprocessing strategy? In terms of Fig 1, and from what I understand from your explanation, you only transliterate the Tamil portion in "Code-mixed data" - if this is correct, you may want to make this more clear in the figure.
+p. 2, 4.1.1 The crucial point that is missing here is that you convert text from one script into another one (not words in a language - that could be taken as translation).
+p. 3 Table 1: wording may lead to confusion: does "None-of-the-above" include either some of the below classes transphobic (I think, for consistency, you may want to use the noun transphobia here (and elsewhere in the paper) instead) or Xenophobia? I suppose it doesn't - moving it to the bottom of the list makes it clear that it doesn't include either of the final two categories (or any class, really).
+p 3: It is not exactly clear to me how the results relate to the table provided (by the way, "Table 5" doesn't exist; it should prob. be Table 3).
+Rating: 5: Marginally below acceptance threshold
+Confidence: 2: The reviewer is willing to defend the evaluation, but it is quite likely that the reviewer did not understand central parts of the paper
+[–]
+DE-ABUSE@TamilNLP-ACL 2022: Transliteration as Data Augmentation for Abuse Detection in Tamil
+ACL 2022 Workshop DravidianLangTech Paper9 Reviewer s6yZ
+22 Mar 2022ACL 2022 Workshop DravidianLangTech Paper9 Official ReviewReaders: Program Chairs, Paper9 Reviewers, Paper9 Authors
+Review:
+Proofread the paper to write consistently—for example, the F1 score did not write consistently.
+
+Rating: 8: Top 50% of accepted papers, clear accept
+Confidence: 3: The reviewer is fairly confident that the evaluation is correct

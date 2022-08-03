@@ -1,0 +1,25 @@
+Comments to the author (if any):
+Reviewer #1: This paper investigates the use of code-mixed comments in languages and realize a system that can be used to a variety of additional sequence classification issues no matter how large the datasets are.According to the experiments, in comparison to single-task,multi-task learning model achieves superior outcomes while decreasing the time and space restrictions that  are necessary to train the models on specific tasks and the weighted F1-score on all three languages get higher results.It is a topic of interest to researchers in the related areas but the paper needs  improvement before acceptance for publication.My detailed comments are as follows:
+1.It is noted that manuscript needs careful editing by someone with expertise in technical English editing paying particular attention to grammar and sentence structure so that the goals and results of the study are clear to readers.
+2.The originality of a dissertation may consist of the discovery of significant new information or principles of organization, the achievement of a new synthesis, the development of new methods or theories, or the application of established methods to new materials.To a certain extent,this paper lack of novelty.
+3.This article can enhance logical continuity，for example, the summary part can be modified.In addition, the narrative coherence and logic of literature review should also be focused.
+4.Some more intuitive charts can be added to help readers understand the meaning of the content.
+5.In the section of methodology,the principle of BERT can be described more clearly.
+6.The authors did a good experiment and get the desired results.However,the article has chosen three languages to implement, and it can also be used to explain the applicability of other languages to show the advanced performance of the model.
+ I would be very glad to re-review the paper in greater depth once it has been edited.
+
+
+Reviewer #2: This manuscript employs multi-task learning to deal with the classification issues for sentiment analysis and offensive language identification, aiming to decrease the time and space restrictions. This manuscript considered to compare the performance of models under the consideration of multiple loss function for three languages. But there are some parts in the following needing modification.
+
+Comment 1
+In Methodology part, please draw a structure diagram of methodology to illustrate the specific procedure.
+
+Comment 2
+Please add the lables of table instead of Table ?? in part 5.1. Also, this manuscript mentioned the Fig. ?? in Part 5.1, but the figure is not found.
+
+Comment 3
+In this manuscript, it mentioned the methodology can reduce the computational time and decrease the space complexity, but the manuscript didn't list the compariaion beween single-task learning and multi-task learning.
+
+Comment 4
+The conclusions section should be strengthened. The authors should clearly highlight limitations of this study and how they will be addressed in future research.
+
